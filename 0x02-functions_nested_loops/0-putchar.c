@@ -1,10 +1,9 @@
 #include "main.h"
 /**
  * main - create _putchar
- * 
+ *achraf Dakir
  * Return: zero
- */
-
+*/
 int main(void)
 {
 	_putchar('_');
