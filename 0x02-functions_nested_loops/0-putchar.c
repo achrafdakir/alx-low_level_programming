@@ -5,7 +5,7 @@
  *achraf Dakir
  * Return: Success 1 Error -1
 */
-int main(void)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
