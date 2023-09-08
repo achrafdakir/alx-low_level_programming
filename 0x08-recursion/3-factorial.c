@@ -13,6 +13,6 @@ int factorial(int n)
 	else if (n == 0)
 		f = 1;
 	else
-		f = factorial(n-1) * n;
+		f = factorial(n - 1) * n;
 	return (f);
 }
