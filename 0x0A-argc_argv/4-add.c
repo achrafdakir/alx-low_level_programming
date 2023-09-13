@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * main - The entry point
  * @argc: arguments counter
@@ -8,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	int i
+	int i;
 	unsigned int var, sum = 0;
 
 	(void) argv;
