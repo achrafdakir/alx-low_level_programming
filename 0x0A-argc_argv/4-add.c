@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 #include <stdlib.h>
 /**
  * main - The entry point
@@ -8,7 +8,7 @@
  */
 int main(int argc, char **argv)
 {
-	int i, var, sum;
+	int i, var, sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
