@@ -10,6 +10,7 @@ int main(int argc, char **argv)
 {
 	int i, var, sum = 0;
 
+	(void) argv;
 	for (i = 1; i < argc; i++)
 	{
 		if (*argv[i] < '0' || *argv[i] > '9')
