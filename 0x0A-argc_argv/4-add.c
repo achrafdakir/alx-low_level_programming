@@ -8,7 +8,8 @@
  */
 int main(int argc, char **argv)
 {
-	int i, var, sum = 0;
+	int i
+	unsigned int var, sum = 0;
 
 	(void) argv;
 	for (i = 1; i < argc; i++)
