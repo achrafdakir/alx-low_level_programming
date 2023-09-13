@@ -14,7 +14,8 @@ int main(int argc, char **argv)
 	{
 		if (*argv[i] < '0' || *argv[i] > '9')
 		{
-			return (printf("Error\n"), 1);
+			printf("Error\n");
+			return (1);
 		}
 		var = atoi(argv[i]);
 		sum += var;
