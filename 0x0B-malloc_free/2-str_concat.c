@@ -15,9 +15,9 @@ i	int i, size1 = 0, size2 = 0;
 	if (s2 == NULL)
 		s2 = "";
 
-	while (s1[size1] != "\0")
+	while (s1[size1])
 		size1++;
-	while (s2[j] != "\0")
+	while (s2[j])
 		size2++;
 
 	c = malloc((sizeof(char) * (size1 + size2)) + 1);
