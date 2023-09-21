@@ -4,12 +4,12 @@
  * @s: the input string
  * Return: the length of string
  */
-int strlen(char *s)
+int _strlen(char *s)
 {
 	int i;
 
 	if (s == NULL)
-		return (0)
+		return (0);
 
 	while (*s++)
 		i++;
